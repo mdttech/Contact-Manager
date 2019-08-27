@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">ContactManager</string>
+
+
+
+    <!-- Label for overflow menu option that inserts fake contacts data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all contacts data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Contacts</string>
+
+    <!-- Title for the activity to add a new contacts [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_contact">Add a Contact</string>
+
+    <!-- Label for editor menu option to save contacts and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current contacts [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+
+
+
+    <!-- Toast message in editor when new Contact has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_contact_successful">Contact saved</string>
+
+    <!-- Toast message in editor when new Contact has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_contact_failed">Error with saving Contact</string>
+
+    <!-- Toast message in editor when current Contact was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_contact_successful">Contact deleted</string>
+    <!-- Toast message in editor when current Contact has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_contact_failed">Error with deleting Contact</string>
+    <!-- Dialog message to ask the user to confirm deleting the current Contact [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this Contact?</string>
+    <!-- Dialog button text for the option to confirm deleting the current Contact[CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+    <!-- Dialog button text for the option to cancel deletion of the current Contact [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+    <!-- Dialog button text for the option to keep editing the current Contact [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_all_dialog_msg">Delete All these Contact ?</string>
+
+    <string name="total_quantity">Total Quantity:</string>
+</resources>
